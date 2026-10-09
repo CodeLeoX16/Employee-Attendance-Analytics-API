@@ -13,6 +13,8 @@ A robust, production-grade FastAPI and MongoDB backend service for HR attendance
 The API requires a running MongoDB instance. Configuration is read from
 `MONGO_URI` and `MONGO_DB`; if they are not set, the application uses
 `mongodb://localhost:27017` and the `attendance_db` database.
+For local configuration, copy `.env.example` to `.env`. Do not commit `.env`
+or any file containing credentials or other secrets.
 
 1. Create and activate a virtual environment:
 
